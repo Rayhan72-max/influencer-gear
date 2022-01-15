@@ -1,0 +1,79 @@
+body {
+  font-family: "Spline Sans", sans-serif;
+  margin: 0;
+}
+.wlcm-msg {
+  margin: 150px 80px;
+  text-align: left;
+}
+
+.cmn-container img {
+  weight: 200px;
+  height: 200px;
+}
+.cmn-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+  padding: 10px 180px;
+
+  border-radius: 10px;
+  grid-column-start: 1;
+  grid-row-start: auto;
+  justify-content: center;
+}
+.button {
+  border-radius: 3px;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(228, 174, 74), orange);
+  padding: 10px 30px;
+}
+.container2 {
+  margin-top: 100px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  padding: 10px 180px;
+
+  border-radius: 10px;
+  justify-content: center;
+}
+.card-container img {
+  weight: 100px;
+  height: 100px;
+}
+.cards {
+  background-color: rgb(231, 201, 201);
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+.cards h1 {
+  text-align: center;
+}
+.uncmn-container {
+  background-color: black;
+  width: 100%;
+}
+.uncmn-container img {
+  width: 500px;
+  height: 500px;
+  margin: 30px 30px;
+  box-shadow: 10px 10px 18px red;
+  border-radius: 5px;
+}
+.btn2 {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(green, rgb(107, 187, 107));
+  padding: 10px 18px;
+}
+.footer {
+  font-family: cursive;
+  text-align: center;
+  background-color: rgb(46, 120, 189);
+  padding: 20px 30px;
+  margin-top: 20px;
+}
