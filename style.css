@@ -2,10 +2,6 @@ body {
   font-family: "Spline Sans", sans-serif;
   margin: 0;
 }
-.wlcm-msg {
-  margin: 150px 80px;
-  text-align: left;
-}
 
 .cmn-container img {
   weight: 200px;
@@ -21,6 +17,12 @@ body {
   grid-column-start: 1;
   grid-row-start: auto;
   justify-content: center;
+}
+.wlcm-img {
+  order: 0;
+}
+.wlcm-msg {
+  order: 2;
 }
 .button {
   border-radius: 3px;
